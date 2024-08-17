@@ -1,0 +1,174 @@
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    padding: 20px 10px;
+    margin-bottom: 38px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+li{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.description-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.description-heading{
+    color: #f9faf9;
+    font-size: 44px;
+    font-style: "Roboto";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description-text{
+    color: #e5e7eb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.company-text{
+    color: yellow;
+    font-family: 'Lato', sans-serif;
+}
+
+.sign-up-button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: 500;
+    height: 34px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.cars-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.popular-heading{
+    font-family: "Roboto";
+}
+
+.cars-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-top: 20px;
+}
+
+.car-item{
+    height: 200px;
+    text-align: center;
+    width: 240px;
+    font-family: "Roboto";
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 340px;
+}
+
+.quote{
+    text-align: center;
+    width: 67vw;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 22px;
+    text-align: start;
+}
+
+.author{
+    text-align: right;
+    color: black;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 260px;
+}
+
+.sign-up-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    width: 70vw;
+    border-radius: 12px;
+    padding: 0px 0px 10px 10px;
+    background-color: #3882f6;
+}
+
+.call-to-action{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: "Roboto";
+    margin-bottom: 10px;
+}
+
+.action-description{
+    margin-top: 0;
+    color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up-text{
+    width: 70%;
+}
+
+.action-btn{
+    height: 38px;
+    width: 80px;
+    background-color: transparent;
+    border: 2px solid #f9faf9;
+    border-radius: 8px;
+    color: #f9faf9;
+    font-weight: 500;
+}
